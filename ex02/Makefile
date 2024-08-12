@@ -10,7 +10,7 @@ OBJ_FILES			:= 	$(SRC:%.cpp=%.o)
 OBJ					:=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
 
 # COMPILER OPTIONS
-CXX					:= g++
+CXX					:= c++
 CXXFLAGS			:= -Wall -Werror -Wextra -std=c++98 -g3
 
 # DEPENDENCYS
