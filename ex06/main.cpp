@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acoto-gu <acoto-gu@student.42.fr>          #+#  +:+       +#+        */
+/*   By: acoto-gu <acoto-gu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024-07-01 06:13:21 by acoto-gu          #+#    #+#             */
-/*   Updated: 2024-07-01 06:13:21 by acoto-gu         ###   ########.fr       */
+/*   Created: 2024/07/01 06:13:21 by acoto-gu          #+#    #+#             */
+/*   Updated: 2024/08/12 15:53:06 by acoto-gu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     if (argc != 2)
     {
         std::cerr << "Wrong number of arguments" << std::endl;
-        return 0;
+        exit(EXIT_FAILURE);
     }
     
     std::string level(argv[1]);
