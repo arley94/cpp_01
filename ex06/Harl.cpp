@@ -59,6 +59,7 @@ void Harl::filter(const std::string &level) const
 			this->error();
 			break;
 		default:
+			std::cout << "UNKNOWN LEVEL" << std::endl;
 			break;
 	}
 }

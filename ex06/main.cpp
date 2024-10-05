@@ -14,12 +14,13 @@
 #include "Harl.hpp"
 #include <iostream>
 
+
 int main(int argc, char const *argv[])
 {
     if (argc != 2)
     {
         std::cerr << "Wrong number of arguments" << std::endl;
-        exit(EXIT_FAILURE);
+        return(1);
     }
     
     std::string level(argv[1]);
